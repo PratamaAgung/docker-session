@@ -1,5 +1,5 @@
 # Third Session
-This session will cover the introduction to the `docker-compose`. Basically, `docker-compose` will make our life easier by using `yaml`-based file to build image. It will be very useful if we have multiple docker container in our system. 
+This session will cover the introduction to the `docker-compose`. Basically, `docker-compose` will make our life easier by using `yaml`-based file to build and run image. It will be very useful if we have multiple docker container in our system. 
 
 ## Step To Build
 - Copy every file to the server (please follow the directory structure as in this repo)
