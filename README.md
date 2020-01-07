@@ -13,4 +13,4 @@ This repository is intended for sharing session about docker
 - `docker rmi <image_id>` : delete image
 
 ## Session
-- [First Session](session-1)
+- [First Session](session-1) : Build simple appilcation that print current date

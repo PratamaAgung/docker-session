@@ -3,7 +3,7 @@ In this session, we will build a docker container which runs a simple applicatio
 
 ## Step To Build
 - Copy every file to the server
-- Image description is contained in the [Dockerfile](Dockerfile). We will use this file to build the container.
+- Image description is contained in the [Dockerfile](Dockerfile). We will use this file to build the image.
 - Run this command to build the image
 ```
 docker build -t <image_tag_name> -f Dockerfile .
