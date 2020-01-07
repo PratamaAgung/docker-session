@@ -8,9 +8,10 @@ This repository is intended for sharing session about docker
 - `docker build -t <image_tag> -f <Dockerfile path> <build_context>`: build image
 - `docker run -ti <image_tag>`: run image
 - `docker exec -ti <container_id> <command>` : jump into running container and execute command
-- `docker stop <container_id>`: stop running container
+- `docker kill <container_id>`: stop running container
 - `docker rm <container_id>` : delete container
 - `docker rmi <image_id>` : delete image
 
 ## Session
 - [First Session](session-1) : Build simple appilcation that print current date
+- [Second Session](session-2) : Build simple Flask API
