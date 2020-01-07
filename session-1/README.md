@@ -8,7 +8,7 @@ In this session, we will build a docker container which runs a simple applicatio
 ```
 docker build -t <image_tag_name> -f Dockerfile .
 ```
-- See `docker images`, if your docker image has been built successfully, its name will apperar on the list.
+- See `docker images`, if your docker image has been built successfully, its name will appear on the list.
 - To run the image, run
 ```
 docker run -ti <image_tag_name>
