@@ -1,6 +1,11 @@
 # docker-session
 This repository is intended for sharing session about docker
 
+## Recommended tools
+We can play with docker tools using its online labs. It can avoid the time and cumbersome of installing docker on your local machine. This is the steps required to access the labs:
+1. Create your Docker Hub user at https://hub.docker.com/, 
+2. You can access the labs at https://labs.play-with-docker.com/. Use your Docker Hub user to login
+
 ## List of useful command
 - `docker images`: List all the images available in the local repository
 - `docker ps`: List all running containers
