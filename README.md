@@ -16,7 +16,7 @@ We can play with docker tools using its online labs. It can avoid the time and c
 - `docker kill <container_id>`: stop running container
 - `docker rm <container_id>` : delete container
 - `docker rmi <image_id>` : delete image
-- `docker save <image_tag_name> -o <file>` : export docker image into image
+- `docker save <image_tag_name> -o <file>` : export docker image into local file
 - `docker load -i <file>` : load docker image from file
 - `docker logs <container_id>` : get log of the container. Useful for debugging and monitoring
 
