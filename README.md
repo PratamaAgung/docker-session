@@ -19,3 +19,4 @@ This repository is intended for sharing session about docker
 - [First Session](session-1) : Build simple appilcation that print current date
 - [Second Session](session-2) : Build simple Flask API
 - [Third Session](session-3) : Intro to docker-compose
+- [Fourth Session](session-4) : Train machine learning model and serve it as an API
