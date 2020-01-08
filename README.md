@@ -13,6 +13,8 @@ This repository is intended for sharing session about docker
 - `docker rmi <image_id>` : delete image
 - `docker save <image_tag_name> -o <file>` : export docker image into image
 - `docker load -i <file>` : load docker image from file
+- `docker logs <container_id>` : get log of the container. Useful for debugging and monitoring
+
 ## Session
 - [First Session](session-1) : Build simple appilcation that print current date
 - [Second Session](session-2) : Build simple Flask API
