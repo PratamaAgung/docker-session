@@ -1,0 +1,43 @@
+version: '2.3'
+services:
+  ml-model:
+    image: arima-model
+    environment:
+      - OUTPUT_PATH=/model/model.pickle
+    volumes:
+      - model-dir:/model
+  
+  flask-app:
+    image: python3-flask
+    depends_on:
+      - ml-model
+    environment:
+      - MODEL_PATH=/model/model.pickle
+      - FLASK_ENV=production
+      - FLASK_APP=app.py
+      - FLASK_RUN_HOST=0.0.0.0
+      - FLASK_DEBUG=1
+    volumes:
+      - model-dir:/model
+      - ./flask-app/app.py:/app/app.py
+    ports:
+      - 5000:5000
+  
+  flask-updater:
+    image: python3-flask
+    depends_on:
+      - ml-model
+    environment:
+      - MODEL_PATH=/model/model.pickle
+      - FLASK_ENV=production
+      - FLASK_APP=app.py
+      - FLASK_RUN_HOST=0.0.0.0
+      - FLASK_DEBUG=1
+    volumes:
+      - model-dir:/model
+      - ./flask-update/app.py:/app/app.py
+    ports:
+      - 5001:5000
+
+volumes:
+  model-dir:

@@ -20,3 +20,4 @@ This repository is intended for sharing session about docker
 - [Second Session](session-2) : Build simple Flask API
 - [Third Session](session-3) : Intro to docker-compose
 - [Fourth Session](session-4) : Train machine learning model and serve it as an API
+- [Fifth Session](session-5) : Reuse docker image built in the 4th session to build greater API system
