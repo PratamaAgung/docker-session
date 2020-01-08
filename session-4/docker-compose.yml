@@ -2,6 +2,7 @@ version: '2.3'
 services:
   ml-model:
     build: model-builder
+    image: arima-model
     environment:
       - OUTPUT_PATH=/model/model.pickle
     volumes:
