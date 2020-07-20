@@ -17,7 +17,7 @@ git config --global http.proxy http://10.59.66.2:8080
 ```
 2. Configure docker dameon to use server proxy.
 
-This will allow the daemon to use proxy when the container is built or executed. First you need to make the configuration file on path `~/.docker/config.json`, then fill it with the following configuration.
+This will allow the daemon to use proxy when the container is built or executed. First you need to make the configuration file on path `~/.docker/config.json`, then fill it with the following example configuration.
 ```
 {
 "proxies": {
