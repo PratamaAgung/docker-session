@@ -4,7 +4,7 @@ import datetime
 import sys
 
 def parse_date(date_str):
-    return datetime.datetime.strptime(date_str, "%y-%b-%d")
+    return datetime.datetime.strptime(date_str, "%Y-%m-%d")
 
 future_predict = int(sys.argv[1]) 
 
